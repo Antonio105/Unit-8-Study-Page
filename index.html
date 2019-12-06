@@ -1,23 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Study Page Unit 8</title>
+        <title>Study Page</title>
+        <link rel="icon" href="images/vocab.png" type="image/x-icon" sizes="8x8 16x16 32x32">
         <style>
+            @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
+            h1 {
+                margin-left: 20%;
+                color: white;
+                font-family: 'Patua One', cursive;
+                margin-top: 0%;
+            }
+
+            header h1 {
+                font-size: 500%;
+                padding: 0;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-right: 0;
+                margin-left: 20%;
+            }
+
             table {
                 display: table;
-                padding: 5px;
+                padding: 8px;
+                margin-left: 20%;
+                color: black;
+                font-size: 125%;
+                border-collapse: collapse;
+                font-family: 'Patua One', cursive;
             }
 
             th, td {
-                border: 1px solid black;
-                padding: 5px;
+                border: 2px solid black;
+                padding: 8px;
             }
+
+            body {
+                margin: 0;
+                background-image: url(images/mountain.jpg);
+                background-repeat: no-repeat;
+            }
+
+            .unit8-1 {
+            
+            }
+
+            .unit8-2 {
+        
+            }
+
         </style>
     </head>
     <body>
 <!--Vocabulary-->
-<h2>Unit 8 Vocabulary</h2>
-        <table>
+<header><h1>Unit 8</h1></header>
+<br>
+<h1>Vocabulary</h1>
+        <table class="unit8-1">
             <tr>
                 <th>Web Table</th>
                 <td data-label="Web Table">HTML structure that consists of multiple tale rows and one or more columns.</td>
@@ -29,7 +70,7 @@
             </tr>
 
             <tr>
-                <th>td</th>
+                <th>Table Definition</th>
                 <td data-label="td">Defines a standard cell in an HTML table.</td>
             </tr>
 
@@ -57,18 +98,65 @@
                 <th>tfoot</th>
                 <td data-label="tfoot">Rows that belong to the table footer.</td>
             </tr>
-        </table>
-<br>
-<!--Code-->
-<h2>Unit 8 Code</h2>
-        <table>
+
             <tr>
-                <th>table <br> tr <br> th <br> td</th>
-                <td data-label="table tr th td"> table <br> tr <br> th /th <br> td /td <br> /tr <br> /table </td>
+                <th>Collapse Border Models</th>
+                <td data-label="tfoot">Used to merge borders from different elements.</td>
             </tr>
 
             <tr>
+                <th>CSS Border Property</th>
+                <td data-label="tfoot">Used to add borders to any part of a web table.</td>
+            </tr>
 
+            <tr>
+                <th>Spanning Cells</th>
+                <td data-label="tfoot">Single cell that occupies more than one cell row and/or column.</td>
+            </tr>
+
+        </table>
+<br>
+<!--Code-->
+<h1>Code</h1>
+        <table class="unit8-2">
+            <tr>
+                <th>table <br> tr <br> th <br> td</th>
+                <td data-label="table tr th td"> table <br> tr <br> th (content) /th <br> td (content) /td <br> /tr <br> /table </td>
+            </tr>
+
+            <tr>
+                <th>thead <br> tbody <br> tfoot </th>
+                <td data-label="thead tbody tfoot"> table <br> thead (content) /thead <br> tbody (content) /tbody <br> tfoot (content) /tfoot <br> /table</td>
+            </tr>
+
+            <tr>
+                <th>border-collapse</th>
+                <td>border-collapse: seperate or collapse;</td>
+            </tr>
+
+            <tr>
+                <th>border spacing</th>
+                <td data-label="border spacing">border-spacing: 2px;</td>
+            </tr>
+
+            <tr>
+                <th>rowspan</th>
+                <td data-label="rowspan">td rowspan="2" (content) /td</td>
+            </tr>
+
+            <tr>
+                <th>colspan</th>
+                <td data-label="colspan">td colspan="2" (content) /td</td>
+            </tr>
+
+            <tr>
+                <th>caption</th>
+                <td data-label="caption">caption (content) /caption</td>
+            </tr>
+
+            <tr>
+                <th>caption side</th>
+                <td data-label="capsion side">caption-side: top or bottom;</td>
             </tr>
         </table>
     </body>
